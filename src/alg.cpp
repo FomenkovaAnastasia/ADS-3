@@ -9,7 +9,7 @@ int cbinsearch(int *arr, int size, int value) {
         if (arr[centr] == value) {
             k++;
             int i = centr + 1;
-            while (i < size && arr[i] == value &&) {
+            while (i < size && arr[i] == value) {
                 k+=1;
                 i++;
             }
